@@ -20,7 +20,7 @@ When a domain is submitted for validation:
 
 1. **Pre-filter** the Tranco domains based on:
     - Same first character.
-    - Similar length (within ±1 character).
+    - Similar length (within ±2 characters).
 
 2. **Compute Edit Distance** between the input domain and the filtered trusted domains.
 
