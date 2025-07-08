@@ -1,0 +1,3 @@
+[submodule "safe-browsing-backend"]
+	path = safe-browsing-backend
+	url = https://github.com/mayanksoni1996/safe-browsing-backend.git
