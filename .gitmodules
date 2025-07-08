@@ -1,3 +1,6 @@
 [submodule "safe-browsing-backend"]
 	path = safe-browsing-backend
 	url = https://github.com/mayanksoni1996/safe-browsing-backend.git
+[submodule "safe-browsing-dnsresolver"]
+	path = safe-browsing-dnsresolver
+	url = git@github.com:mayanksoni1996/safe-browsing-dnsresolver.git
