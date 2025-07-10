@@ -12,6 +12,8 @@ services:
       - '8080'
   mongodb:
     image: mongo:7
+    volumes:
+      - threat-intel-backend-drive:/data/db
     environment: 
       - MONGO_INITDB_ROOT_USERNAME=${SERVICE_USER_MONGODB}
       - MONGO_INITDB_ROOT_PASSWORD=${SERVICE_PASSWORD_MONGODB}
