@@ -2,6 +2,8 @@ services:
   backend:
     build:
       context: safe-browsing-backend
+    depends_on:
+      - mongodb
     environment:
       - MONGODB_URI=mongodb://${SERVICE_USER_MONGODB}:${SERVICE_PASSWORD_MONGODB}@mongodb:27017/${MONGO_INITDB_DATABASE}?authSource=admin
       - MINIO_ACCESS_KEY
